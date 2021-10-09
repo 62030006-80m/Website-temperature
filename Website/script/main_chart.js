@@ -11,7 +11,7 @@ google.charts.setOnLoadCallback(drawChart);
         var options = {
           fontName:'TCM',
           hAxis: {
-            title: 'Today',
+            title: '',
             titleTextStyle: {
                 color: "#707070",
                 fontName: "TCM",
