@@ -19,29 +19,22 @@ nav{
     background-color: #7047EB;
   }
 </style>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-#7047EB">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="Index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Weekly.html">Weekly</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Monthly.html">Monthly</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Add_data.html">Add-data</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+  <nav>
+    <button class="btn-hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="Weekly.html">Weekly</a></li>
+      <li><a href="Monthly.html">Monthly</a></li>
+      <li><a href="Add_data.html">Add-data</a></li>
+    </ul>
   </nav>
+
 
   <h2>ADD_DATA</h2>
   <p></p>
@@ -68,7 +61,7 @@ nav{
     <div class="mb-3 row">
       <label for="inputPassword" class="col-sm-2 col-form-label"><h3>Date&Time</h3></label>
       <div class="col-sm-5">
-        <input type="datetime-local" class="form-control" id="inputPassword">
+        <input type="datetime" class="form-control" id="inputPassword">
       </div>
     </div>
     <button type="button" class="btn btn-outline-secondary">ADD</button> 
